@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 21.48106rem;
+  background: #f2eae2;
+}
+.mainContainer {
+  padding: 1.75rem 1rem;
+}
+.desktop {
+  display: none;
+}
+img,
+.mainContainer {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.images {
+  min-width: 21.48106rem;
+}
+section {
+  min-width: 21.4375rem;
+  border-radius: 1rem;
+  background: #fff;
+}
+.information {
+  padding: 1.5rem;
+}
+.firstP,
+.secondP,
+span {
+  color: #6c7289;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.firstP {
+  font-size: 0.75rem;
+  letter-spacing: 0.3125rem;
+  padding-bottom: 0.5rem;
+}
+.secondP {
+  font-size: 0.875rem;
+  line-height: 1.4375rem;
+  padding-bottom: 1.5rem;
+}
+.thirdP {
+  color: #3d8168;
+  font-family: Fraunces;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.1875rem;
+  padding-bottom: 1.25rem;
+}
+span {
+  font-size: 0.8125rem;
+  line-height: 1.4375rem;
+  text-decoration-line: line-through;
+}
+h1 {
+  color: #1c232b;
+  font-family: Fraunces;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  padding-bottom: 1rem;
+}
+button {
+  border-radius: 0.5rem;
+  background: #3d8168;
+  border: none;
+  padding: 1rem 5.75rem;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.72594rem;
+  cursor: pointer;
+}
+button:hover {
+  background: #1a4032;
+}
+.icon {
+  max-width: 100%;
+  min-width: 1.4rem;
+  height: 1.6rem;
+}
+.forthP {
+  min-width: 7.4rem;
+}
+@media (min-width: 41rem) {
+  .mainContainer {
+    padding: 1rem 9rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    height: 100%;
+    display: block;
+  }
+  body {
+    padding: 10.94rem 22.25rem;
+  }
+  .white {
+    display: flex;
+  }
+  img {
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .information {
+    padding: 2rem;
+  }
+  .firstP {
+    padding-bottom: 1.25rem;
+  }
+  h1 {
+    width: 10ch;
+    padding-bottom: 1.5rem;
+  }
+  .secondP {
+    padding-bottom: 1.81rem;
+  }
+  .thirdP {
+    padding-bottom: 1.88rem;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+  }
+  button {
+    margin-top: 1rem;
+  }
+}
