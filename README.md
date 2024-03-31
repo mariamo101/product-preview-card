@@ -1,8 +1,27 @@
-# React + Vite
+<h1>Product Preview Card</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Screenshot
 
-Currently, two official plugins are available:
+<img width="660" alt="Screenshot 2024-03-31 at 01 01 23" src="https://github.com/mariamo101/product-preview-card/assets/117212859/9d28fa59-6dc3-45c2-99b8-fcd938116a16">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="647" alt="Screenshot 2024-03-31 at 01 01 48" src="https://github.com/mariamo101/product-preview-card/assets/117212859/f21d76c7-f92f-4f2c-bafd-c98b1cc70486">
+
+
+
+### Links
+
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+- Live Site URL: [Live site URL here](https://product-preview-card-nk1g1xxv5-mariamo101s-projects.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- React + Vite
+
+
